@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -W -pedantic
-CLIBS=
+CLIBS=-lbluetooth
 
 mc_server: main.o
 	$(CC) $(CFLAGS) *.o $(CLIBS) -o mc_server
